@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="{% static 'base.css' %}">
 </head>
 <body>
-    <a href="{% url 'post-list'  %}"><h1>blog personal</h1></a>
+    <a href="{% url 'post-list'  %}"><h1>Blog del pepe</h1></a>
+    <a href="{% url 'post_new' %}">Nueva publicación</a>
     {% block content %}
     {% endblock %}
 </body>
