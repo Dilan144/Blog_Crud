@@ -14,7 +14,7 @@ class PostDetailView(DetailView):
 
 class PostCreateView(CreateView):
     model = Post
-    template_name = "post-new.html"
+    template_name = "post_new.html"
     fields = ['title', 'body', 'author'] 
 
 class PostUpdateView(UpdateView):
