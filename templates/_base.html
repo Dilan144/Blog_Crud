@@ -18,7 +18,8 @@
             <input type="submit" value="Cerrar sesión">
         </form>
     {% else %}
-        <a href="{% url 'login' %}">Iniciar sesión</a>
+        <a href="{% url 'login' %}">Iniciar sesión</a>|
+        <a href="{% url 'signup' %}">Registrarse</a>
     {% endif %}
 
     {% block content %}
